@@ -41,6 +41,22 @@
                 <input type="date" name="conclusao" id="iconclusao"></p>
             </fieldset>
             <fieldset>
+                <legend>Áreas de interesse</legend>
+                <input type="checkbox" name="seguranca " id="iseguranca"><label for="iseguranca">Analista de Segurança</label><br>
+                <input type="checkbox" name="backend" id="ibackend"><label for="ibackend">Desenvolvedor Back-End</label><br>
+                <input type="checkbox" name="frontend" id="ifrontend"><label for="ifrontend">Desenvolvedor Front-End</label><br>
+                <input type="checkbox" name="desktop" id="idesktop"><label for="idesktop">Desenvolvedor Desktop</label><br>
+                <input type="checkbox" name="mobile" id="imobile"><label for="imobile">Desenvolvedor Mobile</label><br>
+                <input type="checkbox" name="jogos" id="ijogos"><label for="ijogos">Desenvolvedor de Jogos</label><br>
+                <p><label for="ioutro">Outro</label>
+                <input type="text" name="outro" id="ioutro"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Fale sobre você</legend>
+                <p>Fale um pouco sobre as linguagens de programação que você domina, suas principais experiências no mercado ou projetos pessoais.</p>
+                <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="escreva aqui"></textarea>
+            </fieldset>
+            <fieldset>
                 <legend>Localização</legend>
                 <p><label for="iest">Estado</label>
                 <select name="estado" id="iest" required>
@@ -97,6 +113,11 @@
                 <label for="isimudanca">Sim</label>
                 <input type="radio" name="mudanca" id="inaomudanca" value="nao" required>
                 <label for="inaomudanca">Não</label>
+            </fieldset>
+            <fieldset>
+                <legend>Seu currículo</legend>
+                <p>Anexe o seu currículo no campo abaixo (no formato PDF).</p>
+                <input type="file" name="curriculo" id="icurriculo">
             </fieldset>
             <p><input type="submit" value="Enviar"></p>
         </form>
