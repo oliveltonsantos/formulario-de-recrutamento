@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <h1>Formulário de recrutamento</h1>
+            <p>Por favor, preencha abaixo todos os campos para que a sua candidatura seja aceita.</p>
+            <fieldset>
+                <legend>Pessoal</legend>
+                <p><label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required></p>
+                <p><label for="isobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="isobrenome" required></p>
+                <p><label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" required placeholder="(xx) xxxx-xxxx"></p>
+                <p>Este número tem WhatsApp?</p>
+                <input type="radio" name="whatsapp" id="isim" value="sim">
+                <label for="isim">Sim</label>
+                <input type="radio" name="whatsapp" id="inao" value="nao">
+                <label for="inao">Não</label>
+                <p><label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required></p>
+            </fieldset>
+            <fieldset>
+                <legend>Localização</legend>
+                <p><label for="icidade">Cidade</label>
+                <input type="text" name="cidade" id="icidade" required></p>
+                <p><label for="iest">Estado</label>
+                <select name="estado" id="iest" required>
+                    <option value="">Clique para escolher</option>
+                    <optgroup label="Região Norte">
+                        <option value="AC">Acre</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Região Sudeste">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+                </select>
+                </p>
+            </fieldset>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+    </main>
+</body>
+</html>
+
+
+

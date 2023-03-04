@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    background-image: url(../imagens/fundo-code.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    max-width: 600px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
