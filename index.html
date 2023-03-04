@@ -21,24 +21,51 @@
                 <p><label for="itelefone">Telefone</label>
                 <input type="tel" name="telefone" id="itelefone" required placeholder="(xx) xxxx-xxxx"></p>
                 <p>Este número tem WhatsApp?</p>
-                <input type="radio" name="whatsapp" id="isim" value="sim">
+                <input type="radio" name="whatsapp" id="isim" value="sim" required>
                 <label for="isim">Sim</label>
-                <input type="radio" name="whatsapp" id="inao" value="nao">
+                <input type="radio" name="whatsapp" id="inao" value="nao" required>
                 <label for="inao">Não</label>
                 <p><label for="iemail">Email</label>
                 <input type="email" name="email" id="iemail" required></p>
             </fieldset>
             <fieldset>
+                <legend>Formação</legend>
+                <p>(Preencha apenas se tiver feito curso superior.)</p>
+                <p><label for="icurso">Nome do curso</label>
+                <input type="text" name="curso" id="icurso"></p>
+                <p><label for="ifaculdade">Nome da faculdade</label>
+                <input type="text" name="faculdade" id="ifaculdade"></p>
+                <p><label for="iinicio">Início</label>
+                <input type="date" name="inicio" id="iinicio"></p>
+                <p><label for="iconclusao">Conclusão (ou data prevista)</label>
+                <input type="date" name="conclusao" id="iconclusao"></p>
+            </fieldset>
+            <fieldset>
                 <legend>Localização</legend>
-                <p><label for="icidade">Cidade</label>
-                <input type="text" name="cidade" id="icidade" required></p>
                 <p><label for="iest">Estado</label>
                 <select name="estado" id="iest" required>
                     <option value="">Clique para escolher</option>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="DF">Distrito Federal </option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="SE">Sergipe</option>
+                    </optgroup>
                     <optgroup label="Região Norte">
                         <option value="AC">Acre</option>
-                        <option value="AM">Amazonas</option>
                         <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
                         <option value="PA">Pará</option>
                         <option value="RO">Rondônia</option>
                         <option value="RR">Roraima</option>
@@ -50,8 +77,26 @@
                         <option value="RJ">Rio de Janeiro</option>
                         <option value="SP">São Paulo</option>
                     </optgroup>
+                    <optgroup label="Rigião Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
                 </select>
                 </p>
+                <p><label for="icidade">Cidade</label>
+                    <input type="text" name="cidade" id="icidade" required></p>
+                <label for="irua">Rua</label>
+                <input type="text" name="rua" id="irua" required>
+                <p>
+                    <label for="inumero">Número</label>
+                    <input type="number" name="numero" id="inumero" required>
+                </p>
+                <p>Tem disponibilidade de mudança caso surja uma oportunidade em outra cidade?</p>
+                <input type="radio" name="mudanca" id="isimudanca" value="sim" required>
+                <label for="isimudanca">Sim</label>
+                <input type="radio" name="mudanca" id="inaomudanca" value="nao" required>
+                <label for="inaomudanca">Não</label>
             </fieldset>
             <p><input type="submit" value="Enviar"></p>
         </form>
