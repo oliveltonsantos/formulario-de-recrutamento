@@ -4,7 +4,7 @@ Criar um formulário de recrutamento focado na área de programação.
 
 Objetivo:
 
-- Colocar em prática alguns conhecimentos sobre formulários adquiridos no curso de HTML5 e CSS3 do Curso em Vídeo.
+- Colocar em prática alguns aprendizados sobre formulários adquiridos no módulo 4 do curso de HTML5 e CSS3 do Curso em Vídeo.
 
 - Também utilizei neste projeto uma imagem de fundo fixa.
 
@@ -54,7 +54,7 @@ A fonte utilizada em todo o projeto foi a [Inter]( https://fonts.google.com/spec
 <details>
 <summary>Mudar a cor do campo quando clicado</summary>
 
-Encontrei duas maneiras de fazer isso no W3Schools, uma delas é mudar a [cor da borda do campo](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) e a outra é para [mudar a cor de fundo do campo](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus).
+Encontrei duas maneiras de fazer isso no W3Schools, uma delas é mudar a [cor da borda do campo](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2) e a outra é para mudar a [cor de fundo do campo](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus).
 
 </details>
 
