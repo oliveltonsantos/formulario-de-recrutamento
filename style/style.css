@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+/* Fontes */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Variáveis de CSS */
 
 :root {
     --cor-titulo: #1c4966;
@@ -9,22 +13,29 @@
     --font-destaque: 'Inter';
 }
 
+/* Imagem de fundo */
+
 body {
-    background-image: url(../imagens/fundo-code.jpg);
+    background-color: white;
+    background-image: url(../imagens/fundo-code-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* Configurações do formulário */
+
 main {
     max-width: 600px;
     background-color: white;
     padding: 10px;
     margin: auto;
-    border: 2px solid var(--cor-titulo);
+    border-top: 5px solid var(--cor-subtitulo);
+    border-bottom: 5px solid var(--cor-subtitulo);
     border-radius: 10px;
     font-family: var(--font-destaque);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -42,6 +53,40 @@ legend {
     font-weight: 700;
     color: var(--cor-subtitulo);
 }
+
+input {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid var(--cor-subtitulo);
+}
+
+/* Caixa de texto "Fale sobre você" */
+
+textarea {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    border: 2px solid var(--cor-subtitulo);
+}
+
+/* Escolher o estado*/
+
+select {
+    border-radius: 5px;
+}
+
+select:focus {
+    border: 2px solid var(--cor-subtitulo);
+}
+
+/* Botão de enviar */
 
 .enviar {
     background-color: var(--cor-titulo);
