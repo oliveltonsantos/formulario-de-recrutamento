@@ -4,7 +4,7 @@ Criar um formulário de recrutamento focado na área de programação.
 
 Objetivo:
 
-- Colocar em prática alguns conhecimentos sobre formulários adquiridos no curso de HTML5 e CSS3 do Curso em Vídeo.
+- Colocar em prática alguns aprendizados sobre formulários adquiridos no módulo 4 do curso de HTML5 e CSS3 do Curso em Vídeo.
 
 - Também utilizei neste projeto uma imagem de fundo fixa.
 
