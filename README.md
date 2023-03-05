@@ -62,6 +62,8 @@ Encontrei duas maneiras de fazer isso no W3Schools, uma delas é mudar a [cor da
 
 ### 💻 Resultado:
 
+https://user-images.githubusercontent.com/124373744/222978064-a834d946-5175-4f05-ba26-471078451084.mp4
+
 Acesse o formulário de recrutamento neste link [aqui](https://oliveltonsantos.github.io/formulario-de-recrutamento/)!
 
 ##
