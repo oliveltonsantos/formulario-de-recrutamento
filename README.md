@@ -1,4 +1,4 @@
-### 💡 Ideia do projeto:
+### 💡 Sobre o projeto:
 
 Criar um formulário de recrutamento focado na área de programação.
 
