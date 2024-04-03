@@ -1,6 +1,6 @@
 ### 💡 Sobre o projeto:
 
-Criar um formulário de recrutamento focado na área de programação.
+Formulário de recrutamento focado na área de programação. 
 
 Objetivo:
 
